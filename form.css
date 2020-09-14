@@ -1,0 +1,59 @@
+body{
+	background-color: #d9d9d9;
+}
+h1{
+	text-align: center;
+	font-size: 60px ;
+	color: black;
+}
+form{
+	margin:20px auto ;
+	width:320px
+	color:gray;
+	text-align: center;
+}
+input{
+	padding: 10px;
+	font-size: inherit;
+
+}
+input[type="text"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%
+	border:2px gray;
+
+}
+input[type="email"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%
+	border:2px gray;
+}
+input[type="password"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 100%
+	border:2px gray;
+}
+input[type=checkbox]{
+	margin: 0px 0px 25px 25px;
+}
+input[type=submit]{
+	width: 344px;
+	height: 50px;
+	border: none;
+	background-color: rgb(112, 219, 166);
+	color:white;
+}
+
+.form{
+	width: 600px;
+	height:450px;
+	background-color: rgba(255,255,255,0.6);
+	margin:0px auto;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 60px;
+}
